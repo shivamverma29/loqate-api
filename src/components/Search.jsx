@@ -21,7 +21,7 @@ const Search = () => {
       setLoading(true);
       setError(null);
 
-      const apiKey = "DC81-HZ21-AE58-DW88";
+      const apiKey = "";
       const url = `https://api.addressy.com/Capture/Interactive/Find/v1.10/json3.ws?Key=${apiKey}&Text=${searchTerm}`;
 
       try {
